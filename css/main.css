@@ -1,0 +1,229 @@
+body {
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/********LOGO/HEADER********/
+
+h1 {
+    font-size: 25px;
+    color: #fef2d7;
+    float: left;
+    padding-top: 15px;
+}
+
+
+#logo img {
+    width: 80px;
+    float: left;
+
+}
+
+/***HERO***/
+
+header {
+    background: url('../images/hero.png'), #6d4842;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+
+/**NAV**/
+
+header nav {
+    float: right;
+    width: 700px;
+    padding: 15px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fef2d7;
+    padding: 0 40px;
+    font-size: 25px;
+}
+
+nav span {
+    color: #4eaead;
+}
+
+
+/**WELCOME TEXT**/
+
+header h2 {
+    clear: both;
+    color: #fef2d7;
+    font-size: 80px;
+    text-align: center;
+    padding: 75px 50px 0px 95px;
+    width: 1000px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.btn {
+    background: #fef2d7;
+    border: none;
+    color: #519494;
+    padding: 25px;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin: auto;
+    display: flex;
+
+
+}
+
+.btn:hover {
+    opacity: 1
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/**HELLO**/
+
+#hello .content-wrapper {
+    padding: 50px 0 100px 0;
+}
+
+#hello {
+    color: #6d4842;
+    background: #fef2d7;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+#hello h3 {
+    font-size: 40px;
+}
+
+
+/**ABOUT US**/
+
+#about-us .content-wrapper {
+    padding: 50px 0 100px 0;
+}
+
+#about-us {
+    background: #de6653;
+    color: #fef2d7;
+}
+
+#about-us h3 {
+    font-size: 40px;
+    padding: 0 0 30px 50px;
+}
+
+#about-us p {
+    font-size: 20px;
+}
+
+#about-us .about-us-list img {
+    width: 330px;
+    box-sizing: border-box;
+    border: #fef2d7 10px solid;
+}
+
+#about-us .about-us-list {
+    float: left;
+    width: 300px;
+    text-align: left;
+    padding: 0 50px;
+    line-height: 30px;
+}
+
+/**TEA SELECTION**/
+
+#tea-selection .content-wrapper {
+    padding: 50px 0;
+}
+
+#tea-selection {
+    background: url('../images/Artboard\ 1.png'), #fef2d7;
+    background-position: center;
+    background-size: cover;
+    color: #6d4842;
+}
+
+#tea-selection h3 {
+    font-size: 50px;
+    text-align: center;
+}
+
+#tea-selection p {
+    font-size: 20px;
+
+}
+
+#tea-selection h4 {
+    font-size: 25px;
+}
+
+#tea-selection .tea-list img {
+    width: 300px;
+    height: 300px;
+}
+
+#tea-selection .tea-list {
+    float: left;
+    width: 300px;
+    text-align: center;
+    background: rgb(254, 242, 215, .5)
+}
+
+
+/**CONNECT WITH US**/
+
+footer {
+    background: #599191;
+}
+
+
+#connect-with-us .content-wrapper {
+    padding: 50px 0 100px 0;
+    width: 700px;
+    color: #fef2d7;
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#connect-with-us img {
+    width: 150px;
+}
+
+
+#connect-with-us a {
+    color: #fef2d7;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+#connect-with-us h3 {
+    font-size: 48px;
+}
